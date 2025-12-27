@@ -143,6 +143,7 @@ body {
 
 .newyear-line {
     display: inline-block;
+    white-space: nowrap;
     background: linear-gradient(45deg, #ff6b6b, #ffd93d, #ff6b6b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
