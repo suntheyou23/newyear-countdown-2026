@@ -447,23 +447,24 @@ body {
     }
 
     .countdown-display {
-        gap: clamp(0.25rem, 1.5vw, 0.75rem);
-        max-width: 100%;
+        gap: 1rem;
         flex-wrap: nowrap;
-        padding: 0 0.5rem;
+        overflow-x: auto;
+        padding: 0 1rem;
+        -webkit-overflow-scrolling: touch;
     }
 
     .time-unit {
-        flex: 1 1 0;
-        min-width: 0;
+        flex: 0 0 auto;
+        min-width: 80px;
     }
 
     .number {
-        font-size: clamp(1.8rem, 8vw, 2.8rem);
+        font-size: clamp(2rem, 9vw, 3rem);
     }
 
     .label {
-        font-size: clamp(0.65rem, 2.2vw, 0.95rem);
+        font-size: clamp(0.75rem, 2.5vw, 1rem);
     }
 
     .newyear-title {
