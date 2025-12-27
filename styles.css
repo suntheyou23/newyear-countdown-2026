@@ -447,14 +447,16 @@ body {
     }
 
     .countdown-display {
-        gap: 0.5rem;
+        gap: 0.25rem;
         max-width: 100%;
         flex-wrap: nowrap;
+        overflow-x: auto;
     }
 
     .time-unit {
-        flex: 1;
+        flex: 1 1 0;
         min-width: 0;
+        padding: 0;
     }
 
     .number {
