@@ -485,11 +485,15 @@ body {
         font-size: clamp(1rem, 4vw, 1.5rem);
     }
 
+    #omikuji-screen {
+        gap: 1rem;
+    }
+
     .omikuji-scroll {
         padding: 1.5rem 1rem;
         width: 90%;
         max-width: 100%;
-        max-height: 80vh;
+        max-height: 65vh;
         overflow-y: auto;
     }
 
