@@ -438,7 +438,7 @@ body {
 /* レスポンシブ */
 @media (max-width: 768px) {
     .content {
-        padding: 1rem;
+        padding: 1rem 0.5rem;
     }
 
     .title {
@@ -447,9 +447,10 @@ body {
     }
 
     .countdown-display {
-        gap: 0.5rem;
+        gap: clamp(0.25rem, 1.5vw, 0.75rem);
         max-width: 100%;
         flex-wrap: nowrap;
+        padding: 0 0.5rem;
     }
 
     .time-unit {
@@ -458,11 +459,11 @@ body {
     }
 
     .number {
-        font-size: clamp(1.5rem, 7vw, 2.5rem);
+        font-size: clamp(1.8rem, 8vw, 2.8rem);
     }
 
     .label {
-        font-size: clamp(0.6rem, 2vw, 0.9rem);
+        font-size: clamp(0.65rem, 2.2vw, 0.95rem);
     }
 
     .newyear-title {
