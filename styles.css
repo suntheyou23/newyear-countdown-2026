@@ -439,7 +439,7 @@ body {
 /* レスポンシブ */
 @media (max-width: 768px) {
     .content {
-        padding: 1rem 1rem;
+        padding: 1rem 1.5rem;
     }
 
     .title {
@@ -469,11 +469,11 @@ body {
     }
 
     .newyear-title {
-        font-size: clamp(1.8rem, 7vw, 3rem);
+        font-size: clamp(1.6rem, 6vw, 2.8rem);
     }
 
     .newyear-line {
-        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
     }
 
     .year-label-large {
