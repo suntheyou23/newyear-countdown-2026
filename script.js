@@ -181,8 +181,9 @@ function createSnowflakes() {
         snowflake.classList.add('snowflake');
         snowflake.textContent = snowflakes[Math.floor(Math.random() * snowflakes.length)];
         snowflake.style.left = Math.random() * 100 + '%';
+        snowflake.style.top = Math.random() * 100 + '%';
         snowflake.style.animationDuration = (Math.random() * 3 + 2) + 's';
-        snowflake.style.animationDelay = Math.random() * 5 + 's';
+        snowflake.style.animationDelay = Math.random() * 2 + 's';
         snowflake.style.opacity = Math.random() * 0.6 + 0.4;
         snowflake.style.fontSize = (Math.random() * 10 + 10) + 'px';
         container.appendChild(snowflake);
