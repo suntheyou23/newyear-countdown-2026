@@ -157,11 +157,7 @@ body {
 }
 
 .newyear-line:nth-child(2) {
-    animation-delay: 0s, 0.2s;
-}
-
-.newyear-line:nth-child(3) {
-    animation-delay: 0s, 0.4s;
+    animation-delay: 0s, 0.3s;
 }
 
 @keyframes shine {
@@ -441,19 +437,63 @@ body {
 
 /* レスポンシブ */
 @media (max-width: 768px) {
+    .content {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: clamp(1.5rem, 6vw, 2.5rem);
+        margin-bottom: 2rem;
+    }
+
     .countdown-display {
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .time-unit {
-        min-width: 70px;
+        min-width: 60px;
+    }
+
+    .number {
+        font-size: clamp(2.5rem, 10vw, 4rem);
+    }
+
+    .label {
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+    }
+
+    .newyear-title {
+        font-size: clamp(2rem, 8vw, 3.5rem);
+    }
+
+    .year-label-large {
+        font-size: clamp(2.5rem, 10vw, 4rem);
+    }
+
+    .omikuji-button {
+        padding: 1.2rem 2.5rem;
+        font-size: clamp(1rem, 4vw, 1.5rem);
     }
 
     .omikuji-scroll {
         padding: 2rem 1.5rem;
+        width: 95%;
+    }
+
+    .fortune-result {
+        font-size: clamp(2rem, 8vw, 3rem);
+    }
+
+    .fortune-message {
+        font-size: clamp(0.9rem, 3vw, 1.1rem);
     }
 
     .fortune-details {
         gap: 0.8rem;
+    }
+
+    .retry-button {
+        padding: 0.9rem 2rem;
+        font-size: clamp(0.9rem, 3vw, 1.2rem);
     }
 }
