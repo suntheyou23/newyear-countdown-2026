@@ -231,14 +231,13 @@ body {
 }
 
 .omikuji-scroll {
-    background: #f5f5f0;
-    border-radius: 12px;
+    background: linear-gradient(135deg, #ffffff 0%, #fff8e7 100%);
+    border-radius: 8px;
     padding: 2.5rem 2rem;
     max-width: 500px;
     width: 85%;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(255, 107, 107, 0.3), 0 0 0 3px #ffd93d;
     position: relative;
-    border: 2px solid rgba(0, 0, 0, 0.1);
     animation: scrollAppear 0.8s ease-out;
 }
 
@@ -255,14 +254,7 @@ body {
 
 .scroll-top,
 .scroll-bottom {
-    height: 15px;
-    background: linear-gradient(90deg, #8b4513, #a0522d, #8b4513);
-    border-radius: 10px;
-    margin: -1.5rem -0.5rem 1.5rem -0.5rem;
-}
-
-.scroll-bottom {
-    margin: 1.5rem -0.5rem -1.5rem -0.5rem;
+    display: none;
 }
 
 .scroll-content {
@@ -272,10 +264,10 @@ body {
 .omikuji-title {
     font-size: clamp(1.5rem, 4vw, 2rem);
     margin-bottom: 1.5rem;
-    color: #8b4513;
+    color: #c92a2a;
     letter-spacing: 0.3em;
     text-align: center;
-    border-bottom: 2px solid #8b4513;
+    border-bottom: 2px solid #ffd93d;
     padding-bottom: 1rem;
 }
 
@@ -301,38 +293,45 @@ body {
 }
 
 .fortune-result.daikichi {
-    background: #c92a2a;
+    background: linear-gradient(135deg, #ff6b6b, #ff8787);
     color: #fff;
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
 }
 
 .fortune-result.kichi {
-    background: #fab005;
-    color: #2d1810;
+    background: linear-gradient(135deg, #ffd93d, #ffe066);
+    color: #1a1a2e;
+    box-shadow: 0 4px 12px rgba(255, 217, 61, 0.4);
 }
 
 .fortune-result.chukichi {
-    background: #fd7e14;
+    background: linear-gradient(135deg, #ff922b, #ffa94d);
     color: #fff;
+    box-shadow: 0 4px 12px rgba(255, 146, 43, 0.4);
 }
 
 .fortune-result.shokichi {
-    background: #74c0fc;
+    background: linear-gradient(135deg, #4ecdc4, #6ee7df);
     color: #1a1a2e;
+    box-shadow: 0 4px 12px rgba(78, 205, 196, 0.4);
 }
 
 .fortune-result.suekichi {
-    background: #a9b7c6;
+    background: linear-gradient(135deg, #95e1d3, #b4f0e8);
     color: #1a1a2e;
+    box-shadow: 0 4px 12px rgba(149, 225, 211, 0.4);
 }
 
 .fortune-result.kyo {
-    background: #868e96;
+    background: linear-gradient(135deg, #6c757d, #868e96);
     color: #fff;
+    box-shadow: 0 4px 12px rgba(108, 117, 125, 0.4);
 }
 
 .fortune-result.daikyo {
-    background: #495057;
+    background: linear-gradient(135deg, #495057, #5c636a);
     color: #fff;
+    box-shadow: 0 4px 12px rgba(73, 80, 87, 0.4);
 }
 
 .fortune-message {
